@@ -1,0 +1,63 @@
+\documentclass[Bachelorarbeit.tex]{subfiles}
+\begin{document}
+\chapter{Einführung}
+
+Diese Arbeit soll die Erkenntnisse dokumentieren, welche ich im Zuge des Berufspraktikums  bei der Firma \textbf{smog.at} GmbH im Sommer 2013 erwerben durfte.
+Die Firma \textbf{smog.at} GmbH ist ein junges, innovatives und aufstrebendes Unternehmen mit Firmensitz in Lauterach. Zu ihren Tätigkeitsfeldern zählen unter anderem: Netwerk- und Kommunikations-Technologien, Sicherheits- und Risiko-Management sowie Zertifizierung von IT-Umgebung.\\
+\begin{comment}
+Der Hauptaufgabenbereich meines Praktikums bestand darin, verschiedene Kommunikationskanäle wie beispielsweise \acf{UMTS}, \acf{RFID} und Modbus auf verschiedenen \acf{SOC}-Modellen zu implementieren und das Vorgehen reproduzierbar zu dokumentieren.
+\end{comment}
+Der Hauptaufgabenbereich meines Praktikums bestand darin, die Kommunikationsprotokolle \acf{UMTS}, \acf{RFID} und Modbus auf verschiedenen \acf{SOC}-Modellen zu implementieren und das Vorgehen reproduzierbar zu dokumentieren.
+ Die folgenden Abschnitte stellen eine Übersicht der verschiedenen, von mir bearbeiteten Projekte da.
+
+\section*{Datenverbindung via \ac{UMTS}}
+Der Inhalt dieses Projektes ist es, eine Datenverbindung für ein bestehendes Server-Monitoring-Systems zu realisieren. 
+Der Nutzen des Systems besteht darin, den Zustand der registrierten Dienste, wie zum Beispiel der eines Webservers, zu überwachen. 
+Sollte bei einer registrierten Komponente ein kritischer Zustand eintreten, besteht die Möglichkeit, auf verschiedene Wegen die definierten Verantwortlichen zu benachrichtigen. \\
+Hierbei liegt die Aufgabenstellung nicht darin, die Überwachungssoftware selbst zu entwickeln, sondern vielmehr die Einbettung und Anbindung eines \ac{UMTS}-Modems an das Betriebssystem und dessen Dienste sicherzustellen. 
+Als Grundlage für diese Aufgabe dient ein \ac{SOC}.
+\begin{comment}
+Software-seitig wird CentOS als Betriebssystem verwendet.
+\end{comment} 
+Als Betriebssystem wird CentOS verwendet.\\
+\\
+Folgende Punkte sind im Rahmen der Spezifikation vorgegeben:\\
+Um die Verfügbarkeit zu erhöhen, soll neben den Konfigurationen, wie zum Beispiel Zugang zum Netzwerk, eine redundante Netzwerkschnittstelle mit Hilfe eines \ac{UMTS}-Modem realisiert werden. 
+Diese soll des weiteren auch für den automatisierten Versand von SMS, sowie im Falle eines Netzwerkausfalls als Zugriffsmöglichkeit für Wartungsarbeiten verwendet werden. 
+Zusätzlich darf die \ac{UMTS}-Verbindung während des automatisierten Versands von SMS nicht unterbrochen werden. \\
+Für den sicheren Zugang zu geschlossenen Netzwerken soll OpenVPN eingesetzt werden. 
+Des Weiteren sollen Wartungszugriffe auf das Gerät über das \ac{SSH}-Protokoll  erfolgen.
+
+\section*{Kommunikation via \\ \ac{RFID}}
+In diesem Projekt soll - mit minimalen Hardware-Ressourcen - eine Grundlage für die Entwicklung und Einbettung eines RFID-Shield in einem Linux-Betriebssystem realisiert sowie für zukünftige Einsatzmöglichkeiten dokumentiert werden. 
+\begin{comment}
+Ein weiteres Ziel besteht darin, dass die Umsetzung bis auf die Limitierung, dass ein Linux-Betriebssystem eingesetzt werden soll, Plattform unabhängig ist. 
+\end{comment}
+Ein weiteres Ziel besteht darin, dass die Umsetzung auf beliebigen Linux-Betriebssystemen eingesetzt werden kann.
+Dies soll die Grundlage dafür bilden, weitere Applikationen zu entwickeln, welche auf den dokumentierten Konfigurationen aufbauen. \\
+Neben einem \ac{SOC} wird ein "`Philips PN532/C1"' als \ac{RFID}-Komponente eingesetzt.
+Als Betriebssystem wird eine für \acs{ARM}-Architekturen portierte Debian-Distribution verwendet. 
+Die Kommunikation wird über die frei erhältliche \texttt{libnfc}-Bibliothek realisiert.
+
+\section*{Visual Energy}
+Bei dem Projekt Visual Energy handelt es sich um eine Konzeptlösung, bestehend aus Hard- und Softwarekomponenten.\\
+In erster Linie soll der Funktionsumfang das Auslesen und Speichern von gemessenen Verbrauchswerten umfassen.
+Dabei werden die Messwerte eines Energiezählers, wie zum Beispiel die aktuelle Spannung, ausgelesen und weiter verarbeitet.\\
+Das Ziel ist es, die ermittelten Daten dem/der NutzerIn auf eine einfache Art zur Verfügung zu stellen.
+Die Verwendung von Visual Energy gibt den AnwenderInnen einen transparenten Einblick in den persönlichen Energieverbrauch. 
+Durch eine Präsentation der Verbrauchsanalyse soll eine Sensibilisierung stattfinden und im besten Fall gar eine Bewusstseinsbildung zum nachhaltigen und verantwortungsvollen Umgang mit der Ressource Energie anstoßen.\\
+\\\\
+Da es den Rahmen sprengen würde, alle drei Projekte ausführlich zu beschreiben nimmt diese Arbeit in erster Linie Bezug auf das Projekt Visual Energy.
+%
+%\section*{Struktur der Arbeit}
+%
+%Vor dem Beginn der State of the Art-Recherche wurden die Rahmenbedingung definiert und soweit möglich, ausschließlich Hard- und Softwarekomponenten betrachtet, die zu den Rahmenbedingungen passen.
+%Darauf aufbauend, wurde eine Analyse durchgeführt in der, unter anderem, die Ergebnisse und Begründungen für die ausgewählten Technologien - im Hard- und Software-Bereich - definiert wurden. 
+%Auf Basis der bestehenden Technologien werden Überlegungen zur Softwarearchitektur erläutert und anschließend in ein Konzept-Modell umgesetzt.
+%Bei der "`Implementierung"' wird als Schwerpunkt die Kommunikation zwischen den Energiezählern und dem \ac{SOC} betrachtet. 
+%Abgeschlossen wird die Arbeit durch die Evaluation. 
+%An dieser Stelle werden die Ergebnisse betrachtet, ein Ausblick auf weitere Entwicklungsmöglichkeiten gegebenen sowie ein Fazit des Projektes diskutiert.
+%Im Anhang finden neben UML-Diagrammen auch der Befehlssatz für das entwickelte Programm ComModbus. 
+ 
+
+\end{document}

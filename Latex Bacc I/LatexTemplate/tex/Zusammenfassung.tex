@@ -1,0 +1,12 @@
+\documentclass[Bachelorarbeit.tex]{subfiles}
+\begin{document}
+\chapter*{Zusammenfassung}
+Die Aufgabenstellung des Berufspraktikums bestand darin, das Potential von verschieden \nameref{subsubsec:system_on_a_chip} (SOC)-Modellen in Bezug zu den Kommunikationsprotokollen Modbus, \ac{RFID} und \ac{UMTS} zu evaluieren. Jedes der drei Protokolle sollte in einem eigenständigen Projekt realisiert und dokumentiert werden.  
+Diese Arbeit nimmt in erster Linie Bezug auf das Projekt Visual Energy, welches über das  \nameref{subsubsec:modbus} kommunizieren soll. Das Ziel bestand darin, mittels eines \ac{SOC} die Messwerte von zwei definierten Energiezähler-Modellen der Firma Saia-Burgess auszulesen.
+Auf Grund der durchgeführten \nameref{chap:state_of_the_art}-Analyse fiel hardware-seitig die Entscheidung zu Gunsten des \nameref{para:gnublin}-Boards  aus. Im Softwarebereich kristallisierte sich die in "`C"' geschriebene Bibliothek \nameref{para:libmodbus} heraus, welche in einem Python3 Programm verwendet werden sollte. 
+Aufbauend  auf den analysierten Ergebnissen wurden Überlegungen bezüglich der Softwarearchitektur erläutert und anschließend in ein Konzept-Modell umgesetzt. 
+Bei der Implementierung  wurde der Schwerpunkt auf die Kommunikation zwischen den Energiezählern und dem \ac{SOC} gesetzt.  
+Als Ergebnis des Projektes ist das in Python3 entwickelte Programm Visual Energy entstanden. Für die Kommunikation mit den Energiezählern wurde die, auch eigenständig nutzbare, Applikation ComModbus entwickelt und in das Programm Visual Energy eingebettet.
+
+
+\end{document}

@@ -1,0 +1,556 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{datenblatt_ald1}{manual}{}
+  \list{organization}{1}{%
+    {Saia-Burgess Controls Ltd}%
+  }
+  \field{labelyear}{2011}
+  \field{sortinit}{D}
+  \field{subtitle}{Energiezähler mit integrierter serieller
+  Modbus-Schnittstelle}
+  \field{title}{Datenblatt Modbus ALD1}
+  \field{year}{2011}
+\endentry
+
+\entry{datenblatt_ale3}{manual}{}
+  \list{organization}{1}{%
+    {Saia-Burgess Controls Ltd}%
+  }
+  \field{labelyear}{2010}
+  \field{sortinit}{D}
+  \field{subtitle}{Energiezähler mit integrierter serieller
+  Modbus-Schnittstelle}
+  \field{title}{Datenblatt Modbus ALE3}
+  \field{year}{2010}
+\endentry
+
+\entry{gnublin_details}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Embedded Projects}}{E.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Embedded Projects}}%
+  }
+  \strng{namehash}{E1}
+  \strng{fullhash}{E1}
+  \field{labelyear}{2013}
+  \field{extrayear}{1}
+  \field{sortinit}{E}
+  \field{title}{GNUBLIN-LAN - Wiki}
+  \verb{url}
+  \verb http://en.gnublin.org/index.php/GNUBLIN-LAN
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{03}
+  \field{urlmonth}{10}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{gnublin_debian}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Embedded Projects}}{E.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Embedded Projects}}%
+  }
+  \strng{namehash}{E1}
+  \strng{fullhash}{E1}
+  \field{labelyear}{2013}
+  \field{extrayear}{2}
+  \field{sortinit}{E}
+  \field{title}{Gnublin Debian - Wiki}
+  \verb{url}
+  \verb http://wiki.gnublin.org/index.php/Gnublin_Debian
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{22}
+  \field{urlmonth}{08}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{gnublin_debian_installer}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Embedded Projects}}{E.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Embedded Projects}}%
+  }
+  \strng{namehash}{E1}
+  \strng{fullhash}{E1}
+  \field{labelyear}{2013}
+  \field{extrayear}{3}
+  \field{sortinit}{E}
+  \field{title}{Gnublin Debian Installer - Wiki}
+  \verb{url}
+  \verb http://wiki.gnublin.org/index.php/Gnublin_Installer
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{25}
+  \field{urlmonth}{08}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{ic_adb_4000_db}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{IN-CIRCUIT}}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{IN-CIRCUIT}}%
+  }
+  \strng{namehash}{I1}
+  \strng{fullhash}{I1}
+  \field{labelyear}{2010}
+  \field{sortinit}{I}
+  \field{title}{Datenblatt ICnova ADB4000}
+  \verb{url}
+  \verb http://wiki.in-circuit.de/images/b/bd/305000045A_ICnova_ADB4000.pdf
+  \endverb
+  \field{year}{2010}
+  \field{urlday}{16}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\entry{ic_adb_4000_interface}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{IN-CIRCUIT}}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{IN-CIRCUIT}}%
+  }
+  \strng{namehash}{I1}
+  \strng{fullhash}{I1}
+  \field{labelyear}{2013}
+  \field{sortinit}{I}
+  \field{title}{Spezifikation des ADB4000}
+  \verb{url}
+  \verb http://wiki.in-circuit.de/index.php5?title=ICnova_ADB4000
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{16}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\entry{ic_SAM9G45_sodimm}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{IN-CIRCUIT}}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{IN-CIRCUIT}}%
+  }
+  \strng{namehash}{I1}
+  \strng{fullhash}{I1}
+  \field{labelyear}{2014}
+  \field{sortinit}{I}
+  \field{title}{Spezifikation des SAM9G45 SODIMM}
+  \verb{url}
+  \verb http://shop.in-circuit.de/products/Home/ICnova-CPU-Module/2/ICnova-SAM9
+  \verb G45-SODIMM
+  \endverb
+  \field{year}{2014}
+  \field{urlday}{16}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\entry{modbus_faq}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Modbus Organization}}{M.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Modbus Organization}}%
+  }
+  \strng{namehash}{M1}
+  \strng{fullhash}{M1}
+  \field{labelyear}{2013}
+  \field{sortinit}{M}
+  \field{title}{Modbus FAQ}
+  \verb{url}
+  \verb http://www.modbus.org/faq.php
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{16}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\entry{rrd_tool}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Oetiker}{O.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {OETIKER+PARTNER AG}%
+  }
+  \strng{namehash}{OT1}
+  \strng{fullhash}{OT1}
+  \field{labelyear}{2013}
+  \field{sortinit}{O}
+  \field{title}{About RRDtool}
+  \verb{url}
+  \verb http://oss.oetiker.ch/rrdtool/
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{22}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\entry{about_python}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Python Software Foundation}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Python Software Foundation}}%
+  }
+  \strng{namehash}{P1}
+  \strng{fullhash}{P1}
+  \field{labelyear}{2013}
+  \field{extrayear}{1}
+  \field{sortinit}{P}
+  \field{title}{About Python}
+  \verb{url}
+  \verb http://www.python.org/getit/
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{06}
+  \field{urlmonth}{10}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{python_faq}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Python Software Foundation}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Python Software Foundation}}%
+  }
+  \strng{namehash}{P1}
+  \strng{fullhash}{P1}
+  \field{labelyear}{2013}
+  \field{extrayear}{2}
+  \field{sortinit}{P}
+  \field{title}{General Python FAQ}
+  \verb{url}
+  \verb http://docs.python.org/3.3/faq/general.html#what-is-the-python-software
+  \verb -foundation
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{04}
+  \field{urlmonth}{10}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{python2_or_python3}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Python Software Foundation}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Python Software Foundation}}%
+  }
+  \strng{namehash}{P1}
+  \strng{fullhash}{P1}
+  \field{labelyear}{2013}
+  \field{extrayear}{3}
+  \field{sortinit}{P}
+  \field{title}{Python2orPython3}
+  \verb{url}
+  \verb https://wiki.python.org/moin/Python2orPython3
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{04}
+  \field{urlmonth}{10}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{python_history}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Python Software Foundation}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Python Software Foundation}}%
+  }
+  \strng{namehash}{P1}
+  \strng{fullhash}{P1}
+  \field{labelyear}{2013}
+  \field{extrayear}{4}
+  \field{sortinit}{P}
+  \field{title}{The History of Python}
+  \verb{url}
+  \verb http://python-history.blogspot.co.at/2009/01/brief-timeline-of-python.h
+  \verb tml
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{04}
+  \field{urlmonth}{10}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{python_typed_lang}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Python Software Foundation}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Python Software Foundation}}%
+  }
+  \strng{namehash}{P1}
+  \strng{fullhash}{P1}
+  \field{labelyear}{2013}
+  \field{extrayear}{5}
+  \field{sortinit}{P}
+  \field{title}{Why is Python a dynamic language and also a strongly typed
+  language}
+  \verb{url}
+  \verb https://wiki.python.org/moin/Why%20is%20%20Python%20a%20dynamic%20langu
+  \verb age%20and%20also%20a%20strongly%20typed%20%20language
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{04}
+  \field{urlmonth}{10}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{ctypes}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Python Software Foundation}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Python Software Foundation}}%
+  }
+  \strng{namehash}{P1}
+  \strng{fullhash}{P1}
+  \field{labelyear}{2013}
+  \field{extrayear}{6}
+  \field{sortinit}{P}
+  \field{title}{ctypes — A foreign function library for Python}
+  \verb{url}
+  \verb http://docs.python.org/3.3/library/ctypes.html?%20highlight=ctypes#ctyp
+  \verb es
+  \endverb
+  \field{year}{2013}
+  \field{urlday}{06}
+  \field{urlmonth}{10}
+  \field{urlyear}{2013}
+\endentry
+
+\entry{raspberryPi_about}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Raspberry Pi Foundation}}{R.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Raspberry Pi Foundation}}%
+  }
+  \strng{namehash}{R1}
+  \strng{fullhash}{R1}
+  \field{labelyear}{2014}
+  \field{extrayear}{1}
+  \field{sortinit}{R}
+  \field{title}{Raspberry Pi - About}
+  \verb{url}
+  \verb http://www.raspberrypi.org/about
+  \endverb
+  \field{year}{2014}
+  \field{urlday}{16}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\entry{raspberryPi_faq}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Raspberry Pi Foundation}}{R.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{Raspberry Pi Foundation}}%
+  }
+  \strng{namehash}{R1}
+  \strng{fullhash}{R1}
+  \field{labelyear}{2014}
+  \field{extrayear}{2}
+  \field{sortinit}{R}
+  \field{title}{Raspberry Pi - FAQ}
+  \verb{url}
+  \verb http://www.raspberrypi.org/faqs
+  \endverb
+  \field{year}{2014}
+  \field{urlday}{16}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\entry{bussyteme}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schnell}{S.}%
+     {Gerhard}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Vieweg}%
+  }
+  \strng{namehash}{SG1}
+  \strng{fullhash}{SG1}
+  \field{labelyear}{2012}
+  \field{sortinit}{S}
+  \field{edition}{8}
+  \field{title}{Bussysteme in der Automatisierungs- und Prozesstechnik -
+  Grundlagen, Systeme und Anwendungen}
+  \field{year}{2012}
+\endentry
+
+\entry{modbus_dipl_arbeit}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schwenninger}{S.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SD1}
+  \strng{fullhash}{SD1}
+  \field{labelyear}{2003}
+  \field{sortinit}{S}
+  \field{title}{Implementierung von Modbus auf einer SPS und Anwendungsfall
+  "Positionsregler für Siebdruckmaschine"}
+  \list{institution}{1}{%
+    {Fachhochschule Vorarlberg}%
+  }
+  \field{type}{Diplomarbeit}
+  \field{year}{2003}
+\endentry
+
+\entry{python_vs_c}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{The Computer Language Benchmarks Game}}{T.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{The Computer Language Benchmarks Game}}%
+  }
+  \strng{namehash}{T1}
+  \strng{fullhash}{T1}
+  \field{labelyear}{2014}
+  \field{sortinit}{T}
+  \field{title}{Python3 vs C gcc}
+  \verb{url}
+  \verb http://benchmarksgame.alioth.debian.org/u32/benchmark.php?test=all&lang
+  \verb =python3&lang2=gcc&data=u32
+  \endverb
+  \field{year}{2014}
+  \field{urlday}{17}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\entry{pypy_speedtest}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{pypy.org}}{p.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {{pypy.org}}%
+  }
+  \strng{namehash}{p1}
+  \strng{fullhash}{p1}
+  \field{labelyear}{2014}
+  \field{sortinit}{P}
+  \field{title}{How fast is PyPy?}
+  \verb{url}
+  \verb http://speed.pypy.org/
+  \endverb
+  \field{year}{2014}
+  \field{urlday}{17}
+  \field{urlmonth}{01}
+  \field{urlyear}{2014}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

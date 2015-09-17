@@ -1,0 +1,87 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{3}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}State of the Art}{6}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Rahmenbedingungen}{6}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Hardware-Anforderung}{6}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Software-Anforderung}{7}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Hardware}{7}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Hardware-Schnittstellen}{7}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}System On A Chip}{7}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Software}{9}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Betriebssystem}{9}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Programmierschnittstellen - \acf {API}}{11}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Modbus-Protokoll}{12}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Programmiersprachen}{14}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Analyse}{17}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Auswahl der Technologien}{17}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Eingesetzte Hardware}{17}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Eingesetzte Software}{18}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Spezifikation}{20}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Entwicklung}{21}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}\IeC {\"U}berlegungen zur Softwarearchitektur}{21}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Entwurf des Modells }{22}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Implementierung}{25}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Aufbau der Entwicklungsinfrastruktur}{25}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Allgemeines Vorgehen bei der Implementierung}{25}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Implementierung der Kommunikations-Schicht}{26}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1} Energiez\IeC {\"a}hler-spezifische Informationen}{27}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Planung des Modbus-Moduls}{28}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}Implementierung ComModbus}{28}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.4}Anwendungsfall ComModbus}{30}{subsection.5.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.5}Realisierung von ComModbus}{32}{subsection.5.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.6}Einbindung von ComModbus in der Kommunikationsschicht}{34}{subsection.5.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Evaluation}{36}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Ergebnisse}{36}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Tests \& Benchmarks}{37}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Ausblick}{39}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Res\IeC {\"u}mme \IeC {\"u}ber die Wahl der Python-Version}{40}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Diagramme und Bilder}{46}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Befehlssatz ComModbus}{54}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Konfigurationen}{54}{section.B.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Operationen}{57}{section.B.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Beispiel}{59}{section*.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Beispiel}{60}{section*.108}
